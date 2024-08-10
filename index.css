@@ -1,0 +1,106 @@
+
+h1{
+    text-align: center;
+
+    
+}
+h1:hover{
+    color: snow;
+}
+.navbar ul{
+    list-style-type: none;
+    background-color: #cd5132;
+    padding: 10px;
+    margin: 0px;
+    overflow: hidden;
+}
+.navbar a{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+    text-align: center;
+}
+.navbar .button4{
+    float: right;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 5px;
+}
+.navbar .button4:hover{
+    background-color:sandybrown;
+}
+.navbar .button5{
+    float: right;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 5px;
+}
+.navbar .button5:hover{
+    background-color:rgb(255, 123, 8);
+}
+
+.navbar a:hover{
+    background-color: #e102ff;
+}
+.navbar li{
+    float: left;
+}
+@media screen and (max-width:600px) {
+    aside, section, article{
+        width: 100%;
+    }
+    
+}
+body{
+    margin: 0%;
+}
+h2{
+    width: 20%;
+}
+h2:hover{
+    color: snow;
+}
+h3{
+    width: 40%;
+}
+h3:hover{
+    color: azure;
+}
+h4{
+    width: 40%;
+}
+h4:hover{
+    color: burlywood;
+}
+.bottom ul{
+    list-style-type: none;
+    background-color: #cd5132;
+    padding: 10px;
+    margin: 0px;
+    overflow: hidden;
+
+}
+.bottom a{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+    text-align: center;
+}
+.bottom a:hover{
+    background-color: #e102ff;
+}
+.bottom li{
+    float: left;
+}
+.button{
+    float: right;
+}
+body{
+    background-image: url(japan.png);
+    background-repeat: none;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
